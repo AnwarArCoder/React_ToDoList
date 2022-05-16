@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Rajdhani;
+    src: url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap);
+}
+*{
+    font-family: Rajdhani;
+}
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 100vh;
+    min-height: 625px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    background: #FFF;
+    padding: 30px;
+    border-radius: 5px;
+}
+.name-project{
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.additems{
+    margin: 0 -30px 10px -30px;
+    width: calc(100% + 60px);
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.additems input{
+    background: #F1F1F1;
+    border: none;
+    color: #222;
+    height: 45px;
+    padding-left: 15px;
+    width: 35%;
+    float: left;
+    font-weight: 500;
+}
+.additems input:focus{
+    outline: none;
+}
+.additems button{
+    background: #0093E9;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    height: 47px;
+    width: calc( 22% + 2px );
+    float: left;
+    box-shadow: 2px 7px 13px 0px #0591e3;
+}
+.item-name-age-delete{
+    background: #FFF;
+    margin: 0px 0 30px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: -1px 3px 13px 12px #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-name-age-delete span:first-of-type{
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.item-name-age-delete span:nth-of-type(2){
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.item-name-age-delete span:last-of-type{
+    background: #ed3737;
+    color: #FFF;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 600;
+    box-shadow: -1px 3px 13px 0px #cf2d2d;
+    cursor: pointer;
+}
+
+.no-text{
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
